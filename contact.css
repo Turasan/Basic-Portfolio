@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(./img/concrete_seamless.png);
+}
+
+header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  padding: 25px;
+  background-color: #4aaaa5;
+}
+
+nav a {
+  color: #777777;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.menu {
+  border-right: 2px solid #a7a1a1;
+}
+section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section h2 {
+  color: #4aaaa5;
+  font-size: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 5px 0 25px 0;
+}
+.main-contact {
+  width: 650px;
+  padding: 30px;
+  margin: 40px 0 0 223px;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+label {
+  display: block;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0 10px 0;
+}
+#name,#email {
+  padding: 8px 0 8px 0;
+}
+#list {
+  color: #777777;
+  list-style: none;
+}
+#submit {
+  padding: 10px 20px 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: white;
+  background-color: #4aaaa5;
+  border: white;
+}
+#message {
+  width: 650px;
+  height: 150px;
+}
+.connect {
+  max-width: 270px;
+  padding: 20px;
+  margin: 0 200px 270px 0;
+  background: #fff;
+  border: 1px solid #ddd;
+}
+
+.contact img {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-left: 5px;
+  padding: 15px 0 22px 0;
+}
+footer h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(212, 209, 209);
+  margin-top: 100px;
+  border-top: 10px solid #4aaaa5;
+  padding: 45px 0 30px 690px;
+  background-color: #666262;
+}
