@@ -6,76 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic-Portfolio</title>
     <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="reset.css">
   </head>
   <body>
     <header>
-      <h1>Tural Nasirli</h1>
-      <nav>
-        <a class="menu" href="index.html">About</a>
-        <a class="menu" href="portfolio.html">Portfolio</a>
-        <a class="menu1" href="contact.html">Contact</a>
+      <div id="container">
+        <div class="name"><h1>Tural Nasirli</h1></div>
+        <nav>
+        <div class="menu">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
       </nav>
+      </div>
     </header>
     <section>
-      <div class="main-portfolio">
-        <h2>Portfolio</h2>
-        <hr />
-        <div class="technics1">
-          <img
-            src="./img/technics-q-c-640-480-1.jpg"
-            width="274px"
-            height="206px"
-          />
+      <div id="container-portfolio">
+        <div class="portfolio">
+          <h2>Portfolio</h2>
+          <div class="container-technics">
+            <div class="img1">
+              <img src="./img/technics-q-c-640-480-1.jpg" />
+              <div class="name1">Hangman</div>
+            </div>
+            <div class="img2">
+              <img src="./img/technics-q-c-640-480-2.jpg" />
+              <div class="name2">Rpg Game</div>
+            </div>
+            <div class="img3">
+              <img src="./img/technics-q-c-640-480-5.jpg" />
+              <div class="name3">Trivia Game</div>
+            </div>
+            <div class="img4">
+              <img src="./img/technics-q-c-640-480-7.jpg" />
+              <div class="name4">Rutgers Info Widget</div>
+            </div>
+            <div class="img5">
+              <img src="./img/technics-q-c-640-480-9.jpg" />
+              <div class="name5">Rock Paper Scissors</div>
+            </div>
+          </div>
         </div>
-        <div class="img-name1">Hangman</div>
-        <div class="technics2">
-          <img
-            src="./img/technics-q-c-640-480-2.jpg"
-            width="274px"
-            height="206px"
-          />
+        <div class="connect">
+          <h2>Connect with Me</h2>
+          <hr />
+          <div class="social-medias">
+            
+            <a class="contact" href="#"
+              ><img src="./img/github-128.png"
+            /></a>
+            <a class="contact" href="#"><img src="./img/linkedin-128.png" /></a>
+            <a class="contact" href="#"
+              ><img src="./img/stackoverflow-128.png"
+            /></a>
+          </div>
         </div>
-        <div class="img-name2">RPG Game</div>
-
-        <div class="technics3">
-          <img
-            src="./img/technics-q-c-640-480-5.jpg"
-            width="274px"
-            height="206px"
-          />
-        </div>
-        <div class="img-name3">Trivia Game</div>
-        <div class="technics4">
-          <img
-            src="./img/technics-q-c-640-480-7.jpg"
-            width="274px"
-            height="206px"
-          />
-        </div>
-        <div class="img-name4">Rutgers Info Widget</div>
-      </div>
-      <div class="technics5">
-        <img
-          src="./img/technics-q-c-640-480-9.jpg"
-          width="274px"
-          height="206px"
-        />
-      </div>
-      <div class="img-name5">Rock Paper Scissors</div>
-      <div class="connect">
-        <h2>Connect with Me</h2>
-        <hr />
-        <a class="contact" href="#"
-          ><img src="./img/github-128.png" style="padding-left: 29px"
-        /></a>
-        <a class="contact" href="#"><img src="./img/linkedin-128.png" /></a>
-        <a class="contact" href="#"
-          ><img src="./img/stackoverflow-128.png"
-        /></a>
       </div>
     </section>
     <footer>
-      <h5>Copyright © 2021 Tural Nasirli</h5>
+      <div class="container-footer">Copyright &copy; 2021 Tural Nasirli</div>
     </footer>
   </body>
 </html>
