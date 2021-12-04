@@ -4,55 +4,66 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic-Portfolio</title>
+    <title>About</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
   </head>
   <body>
     <header>
-      <h1>Tural Nasirli</h1>
-      <nav>
-        <a class="menu" href="index.html">About</a>
-        <a class="menu" href="portfolio.html">Portfolio</a>
-        <a class="menu1" href="contact.html">Contact</a>
-      </nav>
-    </header>
-
-    <section>
-      <div class="main">
-        <h2>About Me</h2>
-        <hr />
-        <div class="hero-section">
-          <img
-            src="./img/103448135-software-developers-sitting-at-office-working-on-computers-happy-application-developer-working-on-a-.jpg"
-          />
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident
-            perferendis placeat rerum quae earum deserunt, dicta animi quas
-            soluta aspernatur nisi repellendus ducimus qui corporis temporibus
-            omnis voluptatem sapiente iste natus vel iure consectetur. Quas
-            Lorem ipsum dolor sit. Lorem, ipsum.
-          </p>
-        </div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur,
-          animi.
-        </p>
+      <div id="container">
+        <div class="name"><h1>Tural Nasirli</h1></div>
+        <nav>
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
-      <div class="connect">
-        <h2>Connect with Me</h2>
-        <hr />
-        <a class="contact" href="#"
-          ><img src="./img/github-128.png" style="padding-left: 29px"
-        /></a>
-        <a class="contact" href="#"><img src="./img/linkedin-128.png" /></a>
-        <a class="contact" href="#"
-          ><img src="./img/stackoverflow-128.png"
-        /></a>
+    </header>
+    <section>
+      <div id="main-container">
+        <div id="container-about">
+          <h2>About Me</h2>
+          <div class="about">
+            <div class="image">
+              <img
+                src="./img/103448135-software-developers-sitting-at-office-working-on-computers-happy-application-developer-working-on-a-.jpg"
+                alt="Dev"
+              />
+            </div>
+            <div class="title1">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus
+                animi sed sequi temporibus praesentium eius non nesciunt
+                consequuntur perspiciatis,
+              </p>
+            </div>
+            <div class="title2">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Excepturi tenetur laborum reprehenderit aliquam rem? Maiores?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="connect">
+          <h2>Connect with Me</h2>
+          <hr />
+          <div class="social-medias">
+            <a class="contact" href="#"><img src="./img/github-128.png" /></a>
+            <a class="contact" href="#"><img src="./img/linkedin-128.png" /></a>
+            <a class="contact" href="#"
+              ><img src="./img/stackoverflow-128.png"
+            /></a>
+          </div>
+        </div>
       </div>
     </section>
-
     <footer>
-      <h5>Copyright © 2021 Tural Nasirli</h5>
+      <div class="container-footer">Copyright &copy; 2021 Tural Nasirli</div>
     </footer>
   </body>
 </html>

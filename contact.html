@@ -1,58 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic-Portfolio</title>
-    <link rel="stylesheet" href="contact.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="reset.css" />
+  </head>
+  <body>
     <header>
-        <h1>Tural Nasirli</h1>
+      <div id="container">
+        <div class="name"><h1>Tural Nasirli</h1></div>
         <nav>
-          <a class="menu" href="index.html">About</a>
-          <a class="menu" href="portfolio.html">Portfolio</a>
-          <a class="menu1" href="contact.html">Contact</a>
+          <div class="menu">
+            <ul>
+              <li><a href="index.html">About</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
         </nav>
-      </header>
-      <section>
-        <div class="main-contact">
-          <h2>About Me</h2>
-          <hr />
-          
-            <form id="contact-form">
+      </div>
+    </header>
+    <section>
+      <div id="main-container">
+        <div id="container-contact">
+          <h2>Contact</h2>
+          <div class="contact">
+            <form>
               <ul id="list">
-                <li>
-                  <label for="name">Name</label>
-                  <input type="text" id="name" name="name" placeholder="Tural Nasirli" size="92" required="required">
-                </li>
+                <div>
+                  <li>
+                    <label for="name">Name</label>
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Tural Nasirli"
+                      required="required"
+                    />
+                  </li>
+                </div>
                 <li>
                   <label for="email">Email</label>
-                  <input type="email" id="email" name="email" placeholder="example@gmail.com" size="92" required="required">
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="example@gmail.com"
+                    required="required"
+                  />
                 </li>
                 <li>
                   <label for="message">Message</label>
-                  <textarea id="message" name="message" required="required"></textarea>
+                  <textarea
+                    id="message"
+                    name="message"
+                    required="required"
+                  ></textarea>
                 </li>
               </ul>
-              <input type="submit" id="submit">
+              <input type="submit" id="submit" />
             </form>
+          </div>
         </div>
         <div class="connect">
           <h2>Connect with Me</h2>
           <hr />
-          <a class="contact" href="#"
-            ><img src="./img/github-128.png" style="padding-left: 29px"
-          /></a>
-          <a class="contact" href="#"><img src="./img/linkedin-128.png" /></a>
-          <a class="contact" href="#"
-            ><img src="./img/stackoverflow-128.png"
-          /></a>
+          <div class="social-medias">
+            <a class="contact" href="#"><img src="./img/github-128.png" /></a>
+            <a class="contact" href="#"><img src="./img/linkedin-128.png" /></a>
+            <a class="contact" href="#"
+              ><img src="./img/stackoverflow-128.png"
+            /></a>
+          </div>
         </div>
-      </section>
-      <footer>
-        <h5>Copyright © 2021 Tural Nasirli</h5>
-      </footer>
-</body>
+      </div>
+    </section>
+    <footer>
+      <div class="container-footer">Copyright &copy; 2021 Tural Nasirli</div>
+    </footer>
+  </body>
 </html>
