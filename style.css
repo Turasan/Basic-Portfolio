@@ -1,5 +1,6 @@
 body {
   background-image: url(./img/concrete_seamless.png);
+  height: 100vh;
 }
 #container {
   border-bottom: 1px solid #ddd;
@@ -38,7 +39,7 @@ body {
 #container-about {
   border: 1px solid #ddd;
   background-color: #fff;
-  width: 40%;
+  width: 45%;
 }
 
 #container-about h2 {
@@ -83,11 +84,11 @@ body {
 .connect {
   background-color: #fff;
   border: 1px solid #ddd;
-  width: 16%;
+  width: 17%;
   height: fit-content;
 }
 .connect h2 {
-  padding: 20px 20px 10px 20px;
+  padding: 27px 20px 20px 20px;
   border-bottom: 2px solid #eee;
   font-size: 22px;
   font-family: Georgia, Times, "Times New Roman", serif;

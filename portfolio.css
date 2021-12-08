@@ -1,6 +1,7 @@
 
 body {
   background-image: url(./img/concrete_seamless.png);
+  height:100vh;
 }
 #container {
   border-bottom: 1px solid #ddd;
@@ -36,9 +37,9 @@ body {
   margin: 30px auto 40px auto;
 }
 .container-technics {
-  padding: 20px 0;
+  padding: 20px 0 20px 30px ;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
   gap: 25px 25px;
 }
@@ -63,7 +64,7 @@ body {
 .img4,
 .img5 {
   position: relative;
-  width: 40%;
+  width: 45%;
 }
 .container-technics img {
   width: 100%;
@@ -71,9 +72,7 @@ body {
 .portfolio {
   border: 1px solid #ddd;
   background-color: #fff;
-  width: 40%;
-  /* padding-right: 40px;
-    padding-bottom: 100px; */
+  width: 45%;
 }
 
 .portfolio h2 {
@@ -99,11 +98,11 @@ body {
 .connect {
   background-color: #fff;
   border: 1px solid #ddd;
-  width: 16%;
+  width: 17%;
   height: fit-content;
 }
 .connect h2 {
-  padding: 20px 20px 10px 20px;
+  padding: 27px 20px 20px 20px;
   border-bottom: 2px solid #eee;
   font-size: 22px;
   font-family: Georgia, Times, "Times New Roman", serif;
@@ -122,7 +121,9 @@ body {
   background: #666;
   border-top: 8px solid #4aaaa5;
 }
-
+.bar{
+  display: none;
+}
 @media (max-width: 992px) {
   #container-portfolio {
     flex-direction: column;
@@ -151,6 +152,13 @@ body {
   }
 }
 @media (max-width: 499px) {
+  .menu{
+    display: none;
+  }
+  .bar{
+    font-size: 30px;
+    display: block;
+  }
   .portfolio {
     width: 85%;
     padding: 0;
@@ -161,6 +169,7 @@ body {
   }
   .menu ul li {
     display: block;
+    line-height: 20px;
   }
   .menu li + li:before {
     color: #999;
