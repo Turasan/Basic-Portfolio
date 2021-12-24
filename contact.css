@@ -96,9 +96,10 @@ body {
   height: fit-content;
 }
 .connect h2 {
-  padding: 27px 20px 20px 20px;
+  padding: 27px 0 20px 0;
   border-bottom: 2px solid #eee;
-  font-size: 22px;
+  font-size: 1.5rem;
+  text-align: center;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;

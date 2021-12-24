@@ -102,9 +102,10 @@ body {
   height: fit-content;
 }
 .connect h2 {
-  padding: 27px 20px 20px 20px;
+  padding: 27px 0 20px 0;
   border-bottom: 2px solid #eee;
-  font-size: 22px;
+  font-size: 1.5rem;
+  text-align: center;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -113,17 +114,16 @@ body {
   padding: auto;
   width: 25%;
 }
+/* footer */
 .container-footer {
-  padding: 30px 0;
+  padding: 2% 2%;
   font-size: 12px;
   color: #ccc;
   text-align: center;
   background: #666;
   border-top: 8px solid #4aaaa5;
 }
-.bar{
-  display: none;
-}
+
 @media (max-width: 992px) {
   #container-portfolio {
     flex-direction: column;
@@ -139,7 +139,11 @@ body {
 }
 @media (max-width: 700px) {
   .container-technics {
-    display: block;
+    padding: 20px ;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px 25px;
   }
   .img1,
   .img2,
@@ -152,13 +156,7 @@ body {
   }
 }
 @media (max-width: 499px) {
-  .menu{
-    display: none;
-  }
-  .bar{
-    font-size: 30px;
-    display: block;
-  }
+  
   .portfolio {
     width: 85%;
     padding: 0;
